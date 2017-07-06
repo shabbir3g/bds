@@ -1,0 +1,145 @@
+/*
+Theme Name: BDS
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: ubuntu;
+
+}
+
+.data-ins {
+	width: 500px;
+	margin: 100px auto;
+}
+
+
+.data-ins table {
+	width: 100%;
+}
+.data-ins table tr td{
+	padding: 5px;
+}
+
+.data-ins table tr td input {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.data-ins table tr td:nth-child(1) {
+	text-align: right;
+}
+
+.student-data {
+	width: 1000px;
+	margin: 100px auto;
+
+}
+
+.student-data table {
+	width: 100%;
+
+}
+
+.student-data table tr:nth-child(even){
+	background-color: #ccc;
+}
+.student-data table tr td:nth-child(1){
+	width: 130px;
+}
+.student-data table tr td {
+	padding: 10px;
+}
+
+.student-data table tr td img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 6px solid orange;
+}
+
+.student-data table tr td h2 {
+	color: orange;
+	font-size: 20px;
+}
+
+.student-data table tr td h3 {
+	color: navy;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.student-data table tr td p {
+	color: green;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.student-data table tr td a:nth-child(4){
+	font-size: 14px;
+	color: blue;
+	text-decoration: none;
+}
+
+.student-data table tr td a:nth-child(5){
+	font-size: 14px;
+	color: red;
+	text-decoration: none;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.profile {
+	width: 700px;
+	background-color: orange;
+	margin: 100px auto;
+	border-radius: 10px;
+	padding: 50px;
+}
+
+.profile img {
+	width: 200px;
+	height: 200px;
+	border: 5px solid #FFF;
+	box-shadow: 0px 0px 3px #ccc;
+
+	border-radius: 5px;
+
+}
+.info {
+	margin-top: 50px;
+}
+
+.info table {
+	width: 100%;
+
+}
+
+.info table tr:nth-child(even){
+	background-color: #c9c9c9 ;
+}
+body.ppp {
+	background-color:  gray;
+}
+
+.info table tr td{
+	padding: 5px;
+
+}
+
+.info table tr td input {
+	padding: 5px;
+	border: 1px solid #000;
+
+}
+
+.info table tr td:first-child {
+	text-align: right;
+	width: 200px;
+}
+
+.pro input {
+	padding: 6px 20px;
+	display: block;
+}
